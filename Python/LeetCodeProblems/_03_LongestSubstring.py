@@ -9,6 +9,8 @@ Solution:
     - We move the right pointer through the string, if we come across a character already in the lookup and
     if the index of the character is >= l, then we know it is a repeating character, so we move our left pointer
     up to this repetition and continue.
+    - Note that we will always iterate through the whole string in O(n) time and at worst the space needed for the
+    lookup will also we O(n)
 
 """
 
