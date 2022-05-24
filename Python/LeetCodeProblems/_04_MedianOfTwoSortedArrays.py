@@ -103,7 +103,7 @@ def median_of_two_sorted_lists(A, B):
     imin = 0
     imax = m
     while imin <= imax:
-        # i will include 1 extra term in the  case of odd list size
+        # the left set will include 1 extra term in the case of odd number of values
         i = (imin + imax) // 2
         j = ((m + n + 1) // 2) - i
         if i > 0 and A[i-1] > B[j]:
