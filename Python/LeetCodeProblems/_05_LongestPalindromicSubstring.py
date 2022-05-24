@@ -148,4 +148,25 @@ def get_new_palindrome(s, l, r):
     return r
 
 
-
+# Clean implementation
+def clean_algo(s):
+    t = "#".join("^{}$".format(s))
+    lps = [0]*len(t)
+    c = 0
+    cr = 0
+    i = 0
+    for r in range(1, len(t)-1):
+        diff = cr-r
+        if diff > 0:
+            lps[r] = min(diff, lps[(2*c)-r])
+        while t[r + lps[r] + 1] == t[r - lps[r] - 1]:
+            lps[r] += 1
+        if lps[r] > lps[i]:
+            i = r
+        if lps[r] > diff:
+            c = r
+            cr = c + lps[c]
+    print("String:", t)
+    print("LPS Array:", lps)
+    print("Longest substring:", t[i - lps[i]: i + lps[i] + 1])
+    return s[(i-lps[i])//2: (i+lps[i])//2]
