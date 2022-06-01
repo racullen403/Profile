@@ -91,5 +91,3 @@ def three_sum_pointer_solution(nums):
             else:
                 l += 1
     return output
-
-print(three_sum_pointer_solution([-1,0,1,2,-1,-4]))
