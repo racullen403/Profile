@@ -45,8 +45,10 @@ Solution 2, using stack:
 
 Solution 3, Recursion:
 
-    - Check to make sure there are k nodes left, else return.
-    - We apply our same swapping process, but only do it once, then set
+    - Check to make sure there are k nodes left, else return remaining nodes.
+    - We apply our same swapping process, but only do it for one group.
+    - We set the last node of the group, node.next = recursion(remaining nodes)
+    - return the node we want attached to node.next
 
 """
 
@@ -112,7 +114,6 @@ def reverse_k_nodes_recursive(head, k):
         if not temp:
             return head
         temp = temp.next
-
     # curr is current node we are placing into correct position
     # new is the reversed list being made
     curr = head
