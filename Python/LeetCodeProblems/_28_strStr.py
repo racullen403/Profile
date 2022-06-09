@@ -23,21 +23,13 @@ Solution 2, KMP:
 
                 Characters  [ a, b, b, a, a ,b, b, a ]
                 Index       [ 0, 1, 2, 3, 4 ,5, 6, 7 ]
-                value       [ 0, 0, 0, 1, 1, 2, 3, 4 ]
+                kmp         [ 0, 0, 0, 1, 1, 2, 3, 4 ]
 
-                - Look at index 3, "abba" value 1, so the longest proper prefix and the longest proper suffix that
-                would match is simply "a".
-
-                - Index 4 is "a" again, but look at index 5, we know the previous longest was "a", so the next index
-                can only grow by length 1, so we simply compare the terms to the right of prefix and suffix "a", if
-                they are the same then the length is now 2.
-
-                - This gives us a good insight into how we can make us this array of values. The first will always
-                be 0. For index i, we are looking to increase the longest prefix/suffix
-
-                    e.g if ch[i] == ch[value[i-1]] then value at val[i] = val[i-1] + 1
-
-                        else we are looking for prefix/suffix that is less than or equal to val[i-1]
+                - We iterate through the pattern with i and let j be the current character we are comparing to,
+                always starting with kmp[0] = 0, i = 1, and j = 0
+                - If ch[i] = ch[j], then there is a prefix of length j+1 and suffix of length 1 so kmp[i] = j+1,
+                now let j += 1 and i += 1
+                - If ch[i] != ch[j] and j > 0, then we must set j = kmp[j-1] else we set the kmp[i] = 0
 
     - Now that we can create the list of values, we go through the string comparing its characters to the characters
     in the sub-string.
@@ -93,5 +85,3 @@ def find_substring_kmp(word, find):
         if j == len(find):
             return i-j+1
     return -1
-
-print(find_substring_kmp("aabaaabaaac","aabaaac"))
