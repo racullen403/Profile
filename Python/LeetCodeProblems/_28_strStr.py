@@ -69,19 +69,18 @@ def find_substring_kmp(word, find):
         elif j > 0:
             j = kmp[j-1]
         else:
-            kmp[i] = 0
             i += 1
     print(kmp)
     j = 0
-    for i in range(len(word)):
+    i = 0
+    while i < len(word):
         if word[i] == find[j]:
+            i += 1
             j += 1
-        else:
+            if j == len(find):
+                return i-len(find)
+        elif j > 0:
             j = kmp[j-1]
-            if word[i] == find[j]:
-                j += 1
-            else:
-                j = 0
-        if j == len(find):
-            return i-j+1
+        else:
+            i += 1
     return -1
