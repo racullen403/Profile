@@ -71,7 +71,6 @@ def find_substring_kmp(word, find):
         else:
             kmp[i] = 0
             i += 1
-    print(kmp)
     j = 0
     for i in range(len(word)):
         if word[i] == find[j]:
