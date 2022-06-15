@@ -70,7 +70,6 @@ def find_substring_kmp(word, find):
             j = kmp[j-1]
         else:
             i += 1
-    print(kmp)
     j = 0
     i = 0
     while i < len(word):
