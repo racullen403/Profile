@@ -53,6 +53,3 @@ def find_first_last_position(nums, target):
     if l1 <= r2:
         return [l1, r2]
     return [-1, -1]
-
-
-print(find_first_last_position([1,1,1,2,3,3,3,4], 2))
