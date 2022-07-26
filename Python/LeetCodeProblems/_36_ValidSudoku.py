@@ -48,3 +48,24 @@ def is_sudoku_board_valid(board):
             cols[c][num] = True
             boxes[b][num] = True
     return True
+
+
+def is_sudoku_valid_sets(board):
+    digits = {"1": 0, "2": 1, "3": 2, "4": 3, "5": 4, "6": 5, "7": 6, "8": 7, "9": 8}
+    rows = [set() for _ in range(9)]
+    cols = [set() for _ in range(9)]
+    boxes = [set() for _ in range(9)]
+    for i in range(81):
+        r = i // 9
+        c = i % 9
+        b = 3*(r//3) + (c // 3)
+        if board[r][c] != ".":
+            num = digits[board[r][c]]
+            if num in rows[r] or num in cols[c] or num in boxes[b]:
+                return False
+            rows[r].add(num)
+            cols[c].add(num)
+            boxes[b].add(num)
+    return True
+
+
