@@ -20,7 +20,10 @@ Solution:
 
     - In a similar way we do this with the columns and the 3x3 boxes, this gives us an O(1) lookup for each cell,
     allowing us to see if the digit is a duplicate or not in constant time, instead of comparing to every term in
-    the row, O(n).
+    the row, O(n). It also lets us backtrack and remove digits, while maintaining the O(1) lookup.
+
+    (Note, we could also implement a set, {} for each row, col, box, it has O(1) lookup and .remove() runs in O(1)
+    time. This would also reduce the space needed as it is unlikely we would apply this to a completed board)
 
     - Now we simply iterate through every cell in the board, work out what row/col/box it is, and check if that digit
     exists or not, then update the row/col/box lookups, if we make it through every cell, then the board is valid.
