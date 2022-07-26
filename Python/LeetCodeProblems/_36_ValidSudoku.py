@@ -20,7 +20,7 @@ Solution:
 
     - In a similar way we do this with the columns and the 3x3 boxes, this gives us an O(1) lookup for each cell,
     allowing us to see if the digit is a duplicate or not in constant time, instead of comparing to every term in
-    the row, O(n). It also lets us backtrack and remove digits, while maintaining the O(1) lookup.
+    the row, O(n).
 
     (Note, we could also implement a set, {} for each row, col, box, it has O(1) lookup and .remove() runs in O(1)
     time. This would also reduce the space needed as it is unlikely we would apply this to a completed board)
