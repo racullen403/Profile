@@ -1,16 +1,35 @@
 """
-A Queue functions how you would imagine a real life queue works, the first person into it should be the first
-person out, this is called First In First Out.
+Queue:
 
-This implementation would simply require a front and rear pointer, this way we know if the queue is full or not, and
-know how to enqueue and dequeue.
+    A Queue functions how you would imagine a real life queue works, the first person into it should be the first
+    person out, this is called First In First Out.
 
-Since we are predefining the size of the queue, we can only enqueue while the rear pointer is < size of the array, this
-means even if there is space at the front of the array after a dequeue, we can't use it.
+    This implementation would simply require a front and rear pointer, this way we know if the queue is full or not,
+    and know how to enqueue and dequeue.
 
-To get around this, we introduce the "Circular Queue". This uses the front and rear pointers like a queue, however, if
-there is empty space in front of the "front" pointer, we can enqueue into.
+    Since we are predefining the size of the queue, we can only enqueue while the rear pointer is < size of the array,
+    this means even if there is space at the front of the array after a dequeue, we can't use it.
 
+Circular Queue:
+
+    To get around this, we introduce the "Circular Queue". This uses the front and rear pointers like a queue, however,
+    if there is empty space in front of the "front" pointer, we can enqueue into.
+
+    The space complexity is defined at the time of creating the queue and remains constant.
+
+    The time complexity of enqueue and dequeue are O(1)
+
+
+Uses of Queues:
+
+    CPU and Disk Scheduling
+
+    Handling interrupts in real time systems
+
+    General queue usage, to queue phone calls, game login's, requests for data etc...
+
+
+Class Example:
 
     E.G.    Define: cq = MyCircularQueue(size=3)  cq -> Front = -1, Rear = -1, queue = [0, 0, 0]
 
@@ -28,7 +47,6 @@ there is empty space in front of the "front" pointer, we can enqueue into.
             Enqueue   cq.enqueue(43)   cq -> Front = 2, Rear = 0, queue = [43, False, 6]
 
             If front and rear are equal, the next dequeue will reset the pointers to -1 to signify the queue is empty.
-
 
 """
 
