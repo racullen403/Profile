@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_48_RotateImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_01_Stack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +38,13 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Python._48_RotateImage">
-    <configuration name="_42_CountAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python._01_Stack">
+    <configuration name="_01_Stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,11 +52,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/LeetCodeProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/LeetCodeProblems/_42_CountAndSay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA1/_01_Stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._01_Stack" />
         <item itemvalue="Python._48_RotateImage" />
         <item itemvalue="Python._47_Permutations2" />
         <item itemvalue="Python._46_Permutations" />
         <item itemvalue="Python._43_MultiplyStrings" />
-        <item itemvalue="Python._42_CountAndSay" />
       </list>
     </recent_temporary>
   </component>
