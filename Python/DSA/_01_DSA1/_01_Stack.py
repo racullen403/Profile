@@ -15,6 +15,10 @@ Stack data structure:
     currently is. In python this is more trivial since we don't have to define out variable types, output types, and
     array sizes.
 
+The Stack space complexity is just the size chosen at creation, it will always remain this size since we use a pointer
+to say where the "top" of the stack is, the objects in the stack beyond "top" still exist, they are just ignored.
+
+The time complexity of all push/pop are O(1) as we are just moving a pointer.
 """
 
 
