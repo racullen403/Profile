@@ -11,6 +11,25 @@ means even if there is space at the front of the array after a dequeue, we can't
 To get around this, we introduce the "Circular Queue". This uses the front and rear pointers like a queue, however, if
 there is empty space in front of the "front" pointer, we can enqueue into.
 
+
+    E.G.    Define: cq = MyCircularQueue(size=3)  cq -> Front = -1, Rear = -1, queue = [0, 0, 0]
+
+            Dequeue when empty:  cq.dequeue() would raise value error "Queue is Empty"
+
+            Enqueue:  cq.enqueue(True)  cq -> Front = 0, Rear = 0, queue = [True, 0, 0]
+                      cq.enqueue(False) cq -> Front = 0, Rear = 1, queue = [True, False, 0]
+                      cq.enqueue(6)     cq -> Front = 0, Rear = 2, queue = [True, False, 6]
+
+            Enqueue when full: cq.enqueue(_) would raise ValueError "Queue is Full"
+
+            Dequeue:  cq.dequeue()     cq -> Front = 1, Rear = 2, queue = [True, False, 6]  returns True
+                      cq.dequeue()     cq -> Front = 2, Rear = 2, queue = [True, False, 6]  returns False
+
+            Enqueue   cq.enqueue(43)   cq -> Front = 2, Rear = 0, queue = [43, False, 6]
+
+            If front and rear are equal, the next dequeue will reset the pointers to -1 to signify the queue is empty.
+
+
 """
 
 
