@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_03_PriorityQueueLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_04_PriortyQueueHeap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_05_Deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659461060480</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update">
+      <created>1659549437821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659549437821</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
