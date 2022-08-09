@@ -71,7 +71,7 @@ Binomial Heap:
 
 class BinomialTree:
 
-    def __init__(self, val):
+    def __init__(self, val=0):
         self.val = val
         self.order = 0
         self.parent = None
@@ -109,10 +109,13 @@ class BinomialHeap:
             return minimum
 
     def insert(self, val):
-        new_tree = BinomialTree(val)
-        new_heap = BinomialHeap()
-        new_heap.head = new_tree
-        self.head = self.union(new_heap)
+        if self.is_empty():
+            self.head = BinomialTree(val=val)
+        else:
+            new_tree = BinomialTree(val)
+            new_heap = BinomialHeap()
+            new_heap.head = new_tree
+            self.head = self.union(new_heap)
 
     def union(self, heap):
         """
@@ -134,12 +137,12 @@ class BinomialHeap:
                 x.right_sib = next_x.right_sib
                 next_x.right_sib = x
                 if prev_x is None:
-                    self.head = next_x
+                    new_heap.head = next_x
                 else:
                     prev_x.right_sib = next_x
-                next_x.right_sib = x.right_sib
                 self.join_trees(next_x, x)
-            next_x = next_x.right_sib
+                x = next_x
+            next_x = x.right_sib
         return new_heap.head
 
     def merge_heaps(self, heap):
@@ -149,9 +152,10 @@ class BinomialHeap:
         heap nodes. Finally, returns the head of the new formed heap. O(log m+n)
         """
         new_heap = BinomialHeap()
+        new_heap.insert(0)
         temp = new_heap.head
         h1 = self.head
-        h2 = heap
+        h2 = heap.head
         while h1 and h2:
             if h1.order <= h2.order:
                 temp.right_sib = h1
@@ -177,24 +181,63 @@ class BinomialHeap:
         if tree1.order != tree2.order:
             raise ValueError("Both trees must have equal orders")
         else:
-            children = tree1.left_child
-            tree2.right_sib = children
+            tree1.right_sib = tree2.right_sib
+            tree2.right_sib = tree1.left_child
             tree1.left_child = tree2
-            tree2.parent = tree1
             tree1.order += 1
 
-    # def show(self):
-    #
-    #     def bfs_show(node, indent1, indent2):
-    #         print("[ {} ]".format(node.val), end="")
-    #         if node.right_sib:
-    #             print(" --- ", end="")
-    #             indent += "           "
-    #             bfs_show(node.right_sib, indent)
-    #         if node.left_child:
-    #             indent += "|"
+    def show(self):
+        """
+        Built using bfs at each root to show the individual trees
+        """
+        print("--------------")
+        print("Binomial Heap:")
+        print("--------------")
+        temp = self.head
+        roots = []
+        while temp:
+            roots.append(temp)
+            temp = temp.right_sib
+
+        def bfs_show(count, sep):
+            space = "     "
+            indent = "|     "
+            if len(to_visit) > 0:
+                node = to_visit.pop()
+                print(node.val, end="")
+                if node.left_child:
+                    to_visit.append(node.left_child)
+                    count += 1
+                if node.right_sib:
+                    to_visit.append(node.right_sib)
+                    print(" --- ", end="")
+                    bfs_show(count, sep)
+                else:
+                    print()
+                    print(sep * space, end=" ")
+                    print(indent * count)
+                    print(sep * space, end=" ")
+                    count -= 1
+                    print(indent * count, end="")
+                bfs_show(count, sep)
+
+        for root in roots:
+            print("\n     Tree, Order {}:".format(root.order))
+            print("\n          ", root.val)
+            print("           |")
+            print("           ", end="")
+            if root.left_child:
+                to_visit = [root.left_child]
+                bfs_show(0, 2)
 
 
-bh = BinomialHeap()
-bh.insert(10)
-bh.show()
+def example():
+    bh = BinomialHeap()
+    a = [i for i in range(16)]
+    for i in a:
+        bh.insert(i)
+        print("\n\nInsert {}:".format(i))
+        bh.show()
+
+
+example()
