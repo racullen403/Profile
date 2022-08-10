@@ -62,10 +62,11 @@ Binomial Heap:
 
 
     Tree representation:
-        The best way to store these is a single node with the value of the key (priority level), and 2 pointers, one
+        The best way to store this is a single node with the value of the key (priority level), and 2 pointers, one
         to the left most child and the other to the right sibling, we called this left child right sibling
         representation.
 
+        The heap will simply be a series of these binomial trees, using the right sibling pointer to connect them.
 """
 
 
@@ -74,7 +75,6 @@ class BinomialTree:
     def __init__(self, val=0):
         self.val = val
         self.order = 0
-        self.parent = None
         self.right_sib = None
         self.left_child = None
 
@@ -105,10 +105,49 @@ class BinomialHeap:
             while temp:
                 if temp.val < minimum.val:
                     minimum = temp
-                temp = temp.next
+                temp = temp.right_sib
+            return minimum
+
+    def extract_min(self):
+        """
+        Extracts the min node from the heap and returns pointer to it
+        """
+        if self.is_empty():
+            raise ValueError("Heap is empty")
+        # Find node before the minimum node
+        temp = BinomialTree(self.head.val)
+        temp.right_sib = self.head
+        prev_min = temp
+        while temp.right_sib:
+            if temp.right_sib.val < prev_min.val:
+                prev_min = temp
+            temp = temp.right_sib
+        minimum = prev_min.right_sib
+        if prev_min.right_sib == self.head:
+            self.head = self.head.right_sib
+        else:
+            prev_min.right_sib = minimum.right_sib
+        # Create new heap and add min's child if exists
+        if minimum.order == 0:
+            return minimum
+        else:
+            # Reverse children list so order is increasing
+            new_heap = BinomialHeap()
+            reverse = None
+            heap = minimum.left_child
+            while heap:
+                temp = heap
+                heap = heap.right_sib
+                temp.right_sib = reverse
+                reverse = temp
+            new_heap.head = reverse
+            self.head = self.union(new_heap)
             return minimum
 
     def insert(self, val):
+        """
+        Inserts val into the Binomial Heap. O(1) to create node, and O(logn) for union
+        """
         if self.is_empty():
             self.head = BinomialTree(val=val)
         else:
@@ -119,7 +158,7 @@ class BinomialHeap:
 
     def union(self, heap):
         """
-        Combines self.head and another heap, "heap", into one binomial heap and sets self.heap equal to it.
+        Combines self.head and another heap, "heap", into one binomial heap and sets self.heap equal to it. O(logn)
         """
         new_heap = BinomialHeap()
         new_heap.head = self.merge_heaps(heap)
@@ -231,6 +270,7 @@ class BinomialHeap:
                 bfs_show(0, 2)
 
 
+# Show Insertion
 def example():
     bh = BinomialHeap()
     a = [i for i in range(16)]
@@ -240,4 +280,21 @@ def example():
         bh.show()
 
 
-example()
+# Show Extract Min
+def example2():
+    import random
+    bh = BinomialHeap()
+    a = [random.randrange(0, 16) for i in range(16)]
+    for i in a:
+        bh.insert(i)
+    bh.show()
+    while bh.head:
+        m = bh.extract_min()
+        print("\n\nExtract Min:", m.val)
+        bh.show()
+
+
+example2()
+
+
+
