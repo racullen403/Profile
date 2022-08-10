@@ -294,7 +294,5 @@ def example2():
         bh.show()
 
 
-example2()
-
 
 
