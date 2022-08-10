@@ -75,6 +75,7 @@ class BinomialTree:
     def __init__(self, val=0):
         self.val = val
         self.order = 0
+        self.parent = None
         self.right_sib = None
         self.left_child = None
 
@@ -107,6 +108,39 @@ class BinomialHeap:
                     minimum = temp
                 temp = temp.right_sib
             return minimum
+
+    def delete_key(self, key):
+        """
+        Traverse to node containing key, make its val smaller than the minimum, then swap values with parent nodes
+        until we reach the root, finally, extract min.
+
+        Note, decrease key works the same except we stop when the decreased val has reached its correct place.
+        """
+        if self.is_empty():
+            raise ValueError("Heap is empty")
+        to_visit = [self.head]
+        node = None
+        while to_visit:
+            node = to_visit.pop()
+            if node.val == key:
+                to_visit = None
+            else:
+                if node.left_child:
+                    to_visit.append(node.left_child)
+                if node.right_sib:
+                    to_visit.append(node.right_sib)
+        if node.val != key:
+            raise ValueError("Could not find key")
+        else:
+            min_val = self.find_min().val - 1
+            node.val = min_val
+            while node.parent and node.val < node.parent.val:
+                parent = node.parent
+                temp = node.val
+                node.val = parent.val
+                parent.val = temp
+                node = node.parent
+            return self.extract_min()
 
     def extract_min(self):
         """
@@ -196,6 +230,8 @@ class BinomialHeap:
         h1 = self.head
         h2 = heap.head
         while h1 and h2:
+            h1.parent = None
+            h2.parent = None
             if h1.order <= h2.order:
                 temp.right_sib = h1
                 h1 = h1.right_sib
@@ -222,6 +258,7 @@ class BinomialHeap:
         else:
             tree1.right_sib = tree2.right_sib
             tree2.right_sib = tree1.left_child
+            tree2.parent = tree1
             tree1.left_child = tree2
             tree1.order += 1
 
@@ -294,5 +331,16 @@ def example2():
         bh.show()
 
 
-
+# Show delete key
+def example3():
+    bh = BinomialHeap()
+    a = [i for i in range(16)]
+    for i in a:
+        bh.insert(i)
+    bh.show()
+    print("\n------------")
+    print("Delete key:", 13)
+    print("------------")
+    bh.delete_key(6)
+    bh.show()
 
