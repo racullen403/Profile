@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_09_TreeStructure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_01_BubbleSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_02_SelectionSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_03_InsertionSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_04_MergeSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_05_QuickSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_06_CountSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_01_Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_01_Stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_02_Queue_CircularQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_02_Queue_CircularQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_03_PriorityQueueLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_03_PriorityQueueLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_04_PriortyQueueHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_04_PriortyQueueHeap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_05_Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_05_Deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_06_LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_06_LinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_07_Hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_07_Hashing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA1/_08_BinomialHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_08_BinomialHeap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +46,7 @@
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._04_MergeSort">
+  <component name="RunManager" selected="Python._05_QuickSort">
     <configuration name="_01_BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_08_BinomialHeap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_05_QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_02_SortingMethods" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA1/_08_BinomialHeap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_05_QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._05_QuickSort" />
         <item itemvalue="Python._04_MergeSort" />
         <item itemvalue="Python._03_InsertionSort" />
         <item itemvalue="Python._02_SelectionSort" />
         <item itemvalue="Python._01_BubbleSort" />
-        <item itemvalue="Python._08_BinomialHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660160462550</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update">
+      <created>1660591037402</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660591037402</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
