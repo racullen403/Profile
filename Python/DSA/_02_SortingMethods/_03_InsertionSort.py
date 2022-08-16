@@ -54,7 +54,7 @@ Insertion Sort:
 
 Space complexity O(1)
 
-Time Complexity O(n^2), best case would be O(n), all objects are sorted already.
+Time Complexity O(n^2), best case would be O(n), all objects are sorted already or close.
 
 """
 
