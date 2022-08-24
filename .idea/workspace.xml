@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_10_BalancedTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_BinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_12_AVLTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_09_TreeStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA/_09_TreeStructure.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._BinarySearchTree">
+  <component name="RunManager" selected="Python._11_BinarySearchTree">
     <configuration name="_09_TreeStructure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_11_BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA/_BinarySearchTree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA\_11_BinarySearchTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._BinarySearchTree" />
+        <item itemvalue="Python._11_BinarySearchTree" />
         <item itemvalue="Python._10_BalancedTree" />
         <item itemvalue="Python._09_TreeStructure" />
         <item itemvalue="Python._11_BinarySearch" />
@@ -368,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660740286630</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Update">
+      <created>1661274827574</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661274827574</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
