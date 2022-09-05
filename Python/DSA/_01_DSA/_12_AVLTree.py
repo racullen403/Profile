@@ -128,6 +128,18 @@ AVL Tree:
             would find the successor and replace the internal node with it, then continue as before but try to remove
             the successor.
 
+
+AVL Tree Advantages:
+    - Due to near perfect balancing, we can ensure worst case Search operations are still faster than other BST's
+    - Insert, Deletion and Search are all O(logn)
+
+AVL Tree Disadvantages:
+    - The self-balancing after insertion and deletion can result in many rotations to correct the balance, causing a
+    lot of over-head to correct the tree.
+
+AVL Tree Uses:
+    - Due to the fast worst case Search and potentially slow worst case insertion and deletion, we want to use an AVL
+    tree when we will be doing a lot of searching, and not so much insertion and deletion.
 """
 
 
