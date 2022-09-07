@@ -230,7 +230,7 @@ Red-Black Tree:
 
                                 Case 4  -> DONE
 
-                We see at worst there will only be 3 node rotations a log(n) recolours.
+                We see at worst there will only be 3 node rotations and log(n) recolours.
 
 
 Advantages of RB Tree:
