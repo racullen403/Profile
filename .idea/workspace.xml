@@ -1,7 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update" />
+    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_14_ABTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_01_BasicGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_02_AdjacencyMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_03_AdjacencyList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_04_DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_05_BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_07_Dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_09_DAGShortestPath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_10_StronglyConnectsComponents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_11_Kruskals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_12_Prims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_01_DynamicProg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_02_RodCutting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_03_MatricChainMuiltiplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/ABTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_15_DisjointSetUnion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_01_Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_01_Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_02_Queue_CircularQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_02_Queue_CircularQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_03_PriorityQueueLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_03_PriorityQueueLinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_04_PriortyQueueHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_04_PriortyQueueHeap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_05_Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_05_Deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_06_LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_06_LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_07_Hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_07_Hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_08_BinomialHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_08_BinomialHeap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_09_TreeStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_09_TreeStructure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_10_BalancedTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_10_BalancedTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_11_BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_11_BinarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_12_AVLTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_12_AVLTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA/_13_RedBlackTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_13_RedBlackTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_01_BubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_01_BubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_02_SelectionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_02_SelectionSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_03_InsertionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_03_InsertionSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_04_MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_04_MergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_05_QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_05_QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_06_CountSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_06_CountSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_07_RadixSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_07_RadixSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_08_BucketSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_08_BucketSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_09_HeapSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_09_HeapSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_09_IntroSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_09_IntroSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_10_ShellSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_10_ShellSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/DSA/_02_SortingMethods/_11_BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_03_SortingMethods/_11_BinarySearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/BBBB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/01-BasicGraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/02-AdjacencyMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/03-AdjacencyList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/04-DFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/05-BFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/06-BellmanFords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_08_BellmanFords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Graph/SCC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_06_TopologicalSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Prac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/AVLTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/BTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/BinaryHeap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/BinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/BinaryTrees.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/IndexedPrioQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_07_IndexedPrioQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/RedBlackTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/DataStructures/Trees/Trees.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProblemSolvingWithDsaUsingPython/Dice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProblemSolvingWithDsaUsingPython/EuclidAlgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_08_EuclidAlgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProblemSolvingWithDsaUsingPython/PlayingCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProblemSolvingWithDsaUsingPython/SudokuSolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_09_SudokuSolver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProblemSolvingWithDsaUsingPython/test_PlayingCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProgamizDSA/Subjects/Trees/AVLTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProgamizDSA/Subjects/Trees/BTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProgamizDSA/Subjects/Trees/BinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProgamizDSA/UnofficialTesting/TestTrees/TestAVL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/ProgamizDSA/UnofficialTesting/TestTrees/TestBinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/BinarySearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/BubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/BucketSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/CountSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/HeapSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/InsertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/LinearSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/MergeSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/QuickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/RadixSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/ShellSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/Sorting/selectionsort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/VisualiseSorts/vis_BubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/VisualiseSorts/vis_InsertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/VisualiseSorts/vis_SelectionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_InfixPost&amp;Pre.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_02_InfixPost&amp;Pre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_01_Basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_02_IntegerToString.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_01_IntegerToString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_03_UnderstandingRecursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_03_UnderstandingRecursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_04_Visualising.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_05_SierpinskiTriangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_05_TowerOfHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_05_TowerOfHanoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_06_Maze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_04_Recursion/_07_DynamicProgramming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Extras/_06_FindingChange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_01_Searching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_02_Hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_03_BubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_04_SelectionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_05_InsertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_06_MergeSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_07_QuickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Extra_To_Sort_Through/_05_SortingAndSearching/_08_ShellSort.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,18 +132,21 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ryan/PycharmProjects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ryan/pythonProject/YFCU&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA" />
+      <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\Extras" />
+      <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA" />
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\Extra_To_Sort_Through" />
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._13_RedBlackTree">
-    <configuration name="_09_TreeStructure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._03_MatricChainMuiltiplication">
+    <configuration name="_02_AdjacencyMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA/_09_TreeStructure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_02_AdjacencyMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_10_BalancedTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_02_RodCutting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA/_10_BalancedTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_02_RodCutting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_11_BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_MatricChainMuiltiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA\_11_BinarySearchTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_03_MatricChainMuiltiplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +209,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_12_AVLTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_12_Prims" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +217,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA/_12_AVLTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_12_Prims.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_13_RedBlackTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_15_DisjointSetUnion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +238,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA/_13_RedBlackTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_15_DisjointSetUnion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._13_RedBlackTree" />
-        <item itemvalue="Python._12_AVLTree" />
-        <item itemvalue="Python._11_BinarySearchTree" />
-        <item itemvalue="Python._10_BalancedTree" />
-        <item itemvalue="Python._09_TreeStructure" />
+        <item itemvalue="Python._03_MatricChainMuiltiplication" />
+        <item itemvalue="Python._02_RodCutting" />
+        <item itemvalue="Python._12_Prims" />
+        <item itemvalue="Python._02_AdjacencyMatrix" />
+        <item itemvalue="Python._15_DisjointSetUnion" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662567810118</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update">
+      <created>1662568004106</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662568004106</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
