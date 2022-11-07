@@ -344,3 +344,4 @@ def example3():
     bh.delete_key(6)
     bh.show()
 
+example()
