@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_17_MonotoneStack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_18_ThreadedBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_19_MorrisTraversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Extras/_10_PrimeGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Extras/_11_JobScheduling1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Extras/_12_kthPermutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_1207_UniqueNumberOfOccurences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_279_PerfectSquares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_328_OddEvenLinkedLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_49_Anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_50_Powers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_51_NQueens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_876_MiddleOfLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_907_MinSumOfSubArrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_918_MaxSumCircArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_926_MonotoneFlip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Profile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/LeetCodeProblems/_14_LongestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_14_LongestCommonPrefix.py" afterDir="false" />
-    </list>
+    <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -436,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666204088126</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update">
+      <created>1676922463801</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676922463801</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
