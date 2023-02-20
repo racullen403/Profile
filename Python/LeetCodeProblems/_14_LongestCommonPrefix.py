@@ -11,7 +11,7 @@ def longest_common_prefix(strings):
     shortest = min(strings, key=len)
     output = ""
     i = 0
-    while i < len(shortes5):
+    while i < len(shortest):
         for word in strings:
             if word[i] != shortest[i]:
                 return output

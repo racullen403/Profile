@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bee2969-d53b-4213-85a1-0f18dd1f60be" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_16_FibonacciHeap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_17_MonotoneStack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_18_ThreadedBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_19_MorrisTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Extras/_10_PrimeGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Extras/_11_JobScheduling1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Extras/_12_kthPermutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_1207_UniqueNumberOfOccurences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_279_PerfectSquares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_328_OddEvenLinkedLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_49_Anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_50_Powers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_51_NQueens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_876_MiddleOfLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_907_MinSumOfSubArrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_918_MaxSumCircArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_926_MonotoneFlip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Profile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_08_BinomialHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_08_BinomialHeap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/LeetCodeProblems/_14_LongestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/LeetCodeProblems/_14_LongestCommonPrefix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Ryan/pythonProject/YFCU",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ryan/Documents/GitHub/Profile&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA" />
@@ -51,50 +66,8 @@
       <recent name="C:\Users\Ryan\Documents\GitHub\Profile\Python\DSA\_01_DSA1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._16_FibonacciHeap">
-    <configuration name="_02_RodCutting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Profile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_02_RodCutting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_03_MatricChainMuiltiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Profile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_04_DynamicProgramming/_03_MatricChainMuiltiplication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_08_BinomialHeap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._918_MaxSumCircArray">
+    <configuration name="_18_ThreadedBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_08_BinomialHeap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_18_ThreadedBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,28 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_12_Prims" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Profile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_02_DSA_Graphs/_12_Prims.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_16_FibonacciHeap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_19_MorrisTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Profile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +100,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_16_FibonacciHeap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DSA/_01_DSA_LinearAndTrees/_19_MorrisTraversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_876_MiddleOfLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Profile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/LeetCodeProblems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/LeetCodeProblems/_876_MiddleOfLinkedList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_918_MaxSumCircArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Profile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/LeetCodeProblems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/LeetCodeProblems/_918_MaxSumCircArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_926_MonotoneFlip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Profile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/LeetCodeProblems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/LeetCodeProblems/_926_MonotoneFlip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._16_FibonacciHeap" />
-        <item itemvalue="Python._08_BinomialHeap" />
-        <item itemvalue="Python._03_MatricChainMuiltiplication" />
-        <item itemvalue="Python._02_RodCutting" />
-        <item itemvalue="Python._12_Prims" />
+        <item itemvalue="Python._918_MaxSumCircArray" />
+        <item itemvalue="Python._926_MonotoneFlip" />
+        <item itemvalue="Python._19_MorrisTraversal" />
+        <item itemvalue="Python._18_ThreadedBinaryTree" />
+        <item itemvalue="Python._876_MiddleOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
