@@ -64,7 +64,7 @@ Quick Sort:
 
     Time Complexity is O(nlogn), we break the array down into halves at each stage, so logn levels. And at each level
     there are n elements to look through and sort (actually less than n since the previous pivot is not included
-    in the next level). 
+    in the next level)
 
 
 One of the downsides to this method is that it does not retain Stability, ie the ordering or objects with the same
