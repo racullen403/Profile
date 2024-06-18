@@ -140,3 +140,4 @@ def example():
     a = [i for i in range(6)]
     shuffle(a)
     quick_sort_show(a)
+
