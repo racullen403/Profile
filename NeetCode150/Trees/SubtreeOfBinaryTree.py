@@ -29,7 +29,7 @@ def isSubtree(root, subRoot):
     if sameTree(root, subRoot):
         return True
     else:
-        return isSubtree(root.left, subRoot) or isSubtree(root.right, subTree)
+        return isSubtree(root.left, subRoot) or isSubtree(root.right, subRoot)
 
     
         
