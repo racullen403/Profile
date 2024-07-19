@@ -38,7 +38,7 @@ class KthLargest():
             i = parent
             parent = (i - 1) // 2
 
-    def _minheapify(self, i):
+    def _minheapify(self, i):   # This is O(n) sort time.
         start = (len(self.minHeap) - 1) // 2
         if i > start:
             return

@@ -15,7 +15,8 @@ def kClosest(points, k):
         if dist not in lookup:
             lookup[dist] = [] 
         lookup[dist].append((x,y))
-        heapq.heappush(heap, dist)
+        heap.append(dist)
+    heapq.heapify(heap)    # O(n) sort for min heap using sift down method.
     res = [] 
     while heap and k > 0:
         dist = heapq.heappop(heap)

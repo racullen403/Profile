@@ -13,7 +13,7 @@ import heapq
 
 def lastStoneWeight(stones):
     heap = [-s for s in stones] # convert to -ve as heapq is minheap
-    heapq.heapify(heap) # nlogn sort
+    heapq.heapify(heap) # O(n) sort
     while len(heap) > 1:
         x = heapq.heappop(heap)
         y = heapq.heappop(heap)
