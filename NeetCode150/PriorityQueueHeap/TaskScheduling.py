@@ -7,11 +7,12 @@ Medium: Given array of CPU tasks, tasks where tasks[i] is a letter "A"-"Z", and 
 Sol:
     - If task "A" needs run 3 times, and task "B" needs run 2 times, logically we want to run A - B - idle/run other tasks until A - B again.
     - Count all the tasks and map them to their counts.
-    - Then going through the counts we schedule all tasks with most duplicates, and store their duplicates in a queue for n cycles before adding back to the heap.
+    - Then going through the counts we schedule all tasks with most duplicates, and store their duplicates in a queue for n cycles before adding back to 
+    the heap.
     - This can be done by storing the counts in a maxHeap, and storing the duplicates in a queue.
             - Take from queue first if the item has been there for n cycles and add back to heap.
-            - If item in queue is not ready, we take from heap, this involves either idle for a cycle if not item in heap, or taking the item, scheduling it, reduce count by 1
-            and add to the queue for n cycles.
+            - If item in queue is not ready, we take from heap, this involves either idle for a cycle if not item in heap, or taking the item, scheduling it, 
+            reduce count by 1 and add to the queue for n cycles.
             - Continue like this until heap and queue are empty.
 """
 import heapq
@@ -35,11 +36,10 @@ def leastInterval(tasks, n):
         time += 1
         print("  time", time)
         if qi < len(q) and q[qi][0] == time:    # Item in queue and has been there for n cycles, add back to heap
-            print("    take item from q")
+            print("    take item from q and add to heap")
             heapq.heappush(heap, q[qi][1])
-            time -= 1
             qi += 1
-        elif not heap:  # Not items in heap and items in q are not ready for schedule
+        if not heap:  # Not items in heap and items in q are not ready for schedule
             print("    idle")
             continue
         else:   # We schedule item from heap, if it has duplicates (count is not -1) then add to queue for n cycles with new count
