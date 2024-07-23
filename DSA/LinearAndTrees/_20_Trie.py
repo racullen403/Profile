@@ -20,6 +20,16 @@ Delete:
         - The word has a prefix word, ie, some key not at the end of the word has wordCount>0, we only delete keys this point. (Word containts common prefix)
         - The word is itself a prefix for another word, ie the final key contains another Trie in the children nodes. (Word is a prefix)
 
+Tries are used for things like autocompletion, spell checkers, prefix matching.
+
+Advantages are:
+    - Search words in O(l) time, l is length of word.
+
+Notes:
+    - Usually implemented with an array on constant size as using a dictionary/hashmap object usually in itself takes up more memory and computation to find the key: value.
+    - Efficient implementation is to simply have a child and sibling pointer, as at most when searching for a key, you will only have to search a couple of siblings, 
+    this tends to have no impact on performance, but drastically decreases memory usage. 
+    - You could even store key counts and order siblings by most counts to increase average search time.
 """
 
 class TrieNode():
