@@ -28,6 +28,10 @@ Advantages are:
     - Easy to find prefixes which can be useful in some cases.
     - Allows for order iteration (only when we do not use a dictionary/map like below).
 
+Disadvantages:
+    - Common implementations are very sparse, meaning lots of wasted memory.
+    - O(l) searching is a lot slower than efficient hashmaps that are O(1).
+
 Notes:
     - Usually implemented with an array on constant size as using a dictionary/hashmap object usually in itself takes up more memory and computation to find the key: value.
     - More Efficient implementation is to simply have a child and sibling pointer, as at most when searching for a key, you will only have to search a couple of siblings, 
