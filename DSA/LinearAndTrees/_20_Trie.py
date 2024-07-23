@@ -20,14 +20,17 @@ Delete:
         - The word has a prefix word, ie, some key not at the end of the word has wordCount>0, we only delete keys this point. (Word containts common prefix)
         - The word is itself a prefix for another word, ie the final key contains another Trie in the children nodes. (Word is a prefix)
 
-Tries are used for things like autocompletion, spell checkers, prefix matching.
+Use Cases:
+    - Tries are used for things like autocompletion, spell checkers, prefix matching, dictionaries.
 
 Advantages are:
     - Search words in O(l) time, l is length of word.
+    - Easy to find prefixes which can be useful in some cases.
+    - Allows for order iteration (only when we do not use a dictionary/map like below).
 
 Notes:
     - Usually implemented with an array on constant size as using a dictionary/hashmap object usually in itself takes up more memory and computation to find the key: value.
-    - Efficient implementation is to simply have a child and sibling pointer, as at most when searching for a key, you will only have to search a couple of siblings, 
+    - More Efficient implementation is to simply have a child and sibling pointer, as at most when searching for a key, you will only have to search a couple of siblings, 
     this tends to have no impact on performance, but drastically decreases memory usage. 
     - You could even store key counts and order siblings by most counts to increase average search time.
 """
@@ -35,7 +38,7 @@ Notes:
 class TrieNode():
 
     def __init__(self):
-        self.child = {}         # Array of length 26 is useful for only lowercase letters, becomes to sparse for more keys.
+        self.child = {}         
         self.wordCount = 0
 
 
