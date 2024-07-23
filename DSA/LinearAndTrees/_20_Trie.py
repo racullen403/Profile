@@ -87,8 +87,8 @@ class MyTrie():
                 print("Word contains prefix, ending delete")
                 return
             elif len(key.child) > 0:
-                    print("Word {} contains a common prefix".format(word))
-                    return 
+                print("Word {} contains a common prefix".format(word))
+                return 
             else:
                 print("Deleting", word[i])
                 parent.child.pop(word[i])
