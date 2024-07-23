@@ -122,8 +122,6 @@ class MyTrie():
         return res
         
     
-
-
 def test():
     t = MyTrie()
     print("MyTrie Created: t")
