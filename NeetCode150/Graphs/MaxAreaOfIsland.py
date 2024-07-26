@@ -28,5 +28,3 @@ def maxAreaOfIsland(grid):
 def test():
     grid = [[0,1,1,0,1],[1,0,1,0,1],[0,1,1,0,1],[0,1,0,0,1]]
     print(maxAreaOfIsland(grid))
-
-test()
