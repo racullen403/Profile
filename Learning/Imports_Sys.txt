@@ -1,0 +1,35 @@
+When Python tries to import modules, it will first look for a built-in module, then the file in a list of directories 
+that is recieves through the sys.path variable.
+
+Note that standard built-in modules are in the Python Standard Library.
+
+If we want a module that is not installed, run pip install "...", then you should be able to import.
+
+We can refer to modules within our namespace using from ... import ... 
+
+We can import and alias, import random as r. 
+
+
+Accessing modules from another directory.
+    - This is where the difficulty starts.
+    - Modules outside the know system paths lie outside out namespace and cannot be accessed.
+    - Hence, we must add them in some way to our system path so it knows where to look.
+
+
+    One option is to invoke the path of the module we want into the program file where we want to use the module:
+        - This is supposed to be a temporary fix or for dev purposes as the module is not available system wide.
+
+            import sys
+
+            sys.path.append("path/to/module")
+            
+            import module
+        
+
+    Another option is to add the module to the path where Python check for modules and packages. This is more permanent and makes the 
+    module available environment/system-wide.
+
+        import sys 
+        print(sys.path)
+
+        - typically we want the user/.../lib/site-packages file, and save it in there.

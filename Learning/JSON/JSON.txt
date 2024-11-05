@@ -1,0 +1,27 @@
+Javascript Object Notation
+
+Typically used to pass data through API calls.
+
+We have an inbuilt package, import json 
+
+JSON is formatted as so
+
+    {
+        "key": value,
+        "key": {
+            "key": ...,
+            "key": ...
+        }
+    }
+
+Note that keys are strings,and values can be strings, numbers, arrays, objects, etc...
+
+Typically we will import our JSON data in some way, as a string, and parse it using json.loads(data), this will turn it into a workable python dictionary.
+We can also convert a python object into JSON using json.dumps(obj) (limited to dict, list, tuple, string, int, float, True, False, None).
+
+We can make the JSON more readable with json.dumps(obj, indent=4)
+
+JSON can be used to securely send data through JSON Web Signatures (JWS), composed of header, payload and signature.
+    - Header specifies the type of token and signing algorithm (encryption).
+    - Payload is the data being transmitted, commonly JSON but not always.
+    - Signature is constructed by applying the encryption algo in the header to the base64 version of the header and payload joined by a dot.

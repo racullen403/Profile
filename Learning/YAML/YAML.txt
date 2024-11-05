@@ -1,0 +1,50 @@
+Yet ANother Markup Language
+
+Used to format configuation files and can be used in place of JSON a lot due to the object serialization. However we typically use for configuaration.
+
+Can use extension yaml or yml
+
+Start and separate YAML documents with 3 dashes 
+
+--- 
+
+Use indentation of 2 whitespace for nesting, newlines indicate end of field.
+
+
+somefile.yml 
+---
+key1: "value1"
+key2: "value2" 
+key3:
+  key4: ...
+  key5: ...
+...
+---
+key1: "value3"
+key4: "value4"
+key3:
+  key4: ...
+  key5: ...
+
+This yml has 2 documents in it, where each has 3 keys, note key3 is a nested dictionary with keys key4 and key5. We separate them with --- at the start and ... at the end.
+
+
+We can list multiple values as follows
+
+key1:
+  - value1 
+  - value2
+  - value3
+
+
+
+To parse the YAML file we import yaml (need to instal pyyaml), then use the yaml.load() on the file to get the data into a dictionary format.
+
+We can comment in files the same as python with # in line
+
+Values are generally recognised and converted to the correct data type, ie string, int, flaot, hexidecimal, we represent non numbers as .Nan, .Inf, -.Inf. None is ~ or null.
+Booleans are True/On/Yes and False/Off/No.
+
+Arrays with - as above, or [1, 2, 3]
+
+We can do the same with dictionarys, using the indentation or {....}

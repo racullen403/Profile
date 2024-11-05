@@ -1,0 +1,28 @@
+---
+version: 1
+formatters:
+  basicFormatter:
+    format: "%(asctime)s:%(levelname)s:%(message)s"
+    datefmt: "%m/%d/%Y %I:%M:%S %p "
+handlers:
+  log6:
+    class: logging.FileHandler
+    level: DEBUG 
+    formatter: basicFormatter 
+    filename: "Learning/MyLogger/log6.log"
+    mode: "w"
+  log7:
+    class: logging.FileHandler
+    level: WARNING 
+    formatter: basicFormatter 
+    filename: "Learning/MyLogger/log7.log"
+    mode: "w"
+loggers:
+  myDictLogger:
+    level: DEBUG
+    handlers: 
+      - log6
+      - log7
+    propagate: no 
+root:
+  level: DEBUG 
